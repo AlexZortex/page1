@@ -196,6 +196,10 @@ padding-right: 28px;
   margin-bottom: 42.5px;
 }
 
+.new__list{
+  margin-bottom: 57px;
+}
+
 .new__item{
   position: relative;
   width: 557px;
@@ -204,11 +208,9 @@ padding-right: 28px;
   border-radius: 4px;
   overflow: hidden;
   margin-right: 10px;
-  margin-bottom: 57px;
 }
 
 .new__item:last-child{
-  margin-bottom: 0;
   margin-right: 0;
 }
 
