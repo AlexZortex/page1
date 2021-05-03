@@ -7,6 +7,7 @@ body{
   background-color: #001821;
   font-size: 16px;
   color: #fff;
+  margin: 0;
  }
 
  a{
@@ -47,7 +48,7 @@ body{
  }
  
  header{
-   height: 120px;
+   min-height: 120px;
    position: relative;
    margin-bottom: 65px;
  }
@@ -69,6 +70,10 @@ body{
    display: inline-block;
    vertical-align: middle;
    margin-right: 50px;
+ }
+
+ .menu__item:last-child{
+   margin-right: 0;
  }
 
  .menu__link{
@@ -176,6 +181,9 @@ padding-right: 28px;
   vertical-align: top;
   padding-left: 9px;
   padding-right: 28px;
+}
+
+.offers__feature{
   margin-bottom: 23.5px;
 }
 
@@ -197,6 +205,11 @@ padding-right: 28px;
   overflow: hidden;
   margin-right: 10px;
   margin-bottom: 57px;
+}
+
+.new__item:last-child{
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .new__img{
@@ -235,6 +248,11 @@ padding-right: 28px;
 
 .pagination{
   text-align: center;
+ 
+}
+
+.pagination__info{
+  display: inline-block;
 }
 
 .pagination__list, .pagination__display{
@@ -244,14 +262,20 @@ padding-right: 28px;
 
 .pagination__display{
   margin-right: 35px;
+  display: inline-block;
+  margin-top: -151px;
 }
 .pagination__item{
   display: inline-block;
   vertical-align: middle;
 }
 
+.pagination__list{
+  display: inline-block;
+}
+
 .pagination__number{
-  display: block;
+  display: inline-block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -323,7 +347,7 @@ footer{
   left: 0;
 }
 
-.menu__footer{
+.menu-footer{
   position: absolute;
   left: 164px;
 }
@@ -345,7 +369,7 @@ hr{
   margin-bottom: 45px;
 }
 
-.contacts__footer{
+.contacts-footer{
   text-align: right;
   margin-top: -49px;
 }
